@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.password-reset-section {
+    width: 100%;
+    max-width: 400px;
+}
+
+.password-reset-section h2 {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #003366;
+    text-decoration: none;
+    text-align: center;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .password-reset-section {
+        width: 100%;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}

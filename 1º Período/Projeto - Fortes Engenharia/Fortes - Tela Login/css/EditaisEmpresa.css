@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.barradaheader{
+    background-color: #0059A9;
+    width: 100%;
+    height: 30px;
+}
+
+header .menu {
+    background-color: #d8d8d8;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 55px;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #0059A9;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search button:hover {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+header .search input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+header .search button {
+    background-color: white;
+    color: #0059A9;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    background-color: #00529B;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar .edital {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.sidebar .edital button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.main-content .download-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content button {
+    background-color: #00529B;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content button:hover {
+    background-color: #003366;
+}
+
+.download-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.download-info button {
+    margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia Login</title>
+    <link rel="shortcut icon" href="../imagens/fortes_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../javascript/login_empresas.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-linha"></div>
+        <div class="header-content">
+            <img src="../imagens/logoFortes_Menu.png" alt="Fortes Engenharia Logo">
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="users">
+                <h2>Usuários</h2>
+                <ul>
+                    <li>
+                        <a style="text-decoration: underline;" href="../paginas/login_empresas.html">
+                            <img src="../imagens/duploperfil.png" alt="Empresa Carente">
+                            Empresa Carente
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index.html">
+                            <img src="../imagens/soloperfil.png" alt="Grupo Fortes">
+                            Grupo Fortes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-form">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="login">
+                        <div class="inputs">
+                            <div class="input1">
+                                <label class="label" for="login">Login Fortes</label>
+                                <input type="text" autocomplete="off" autofocus id="login" name="login" required>
+                            </div>
+                            <div class="input2">
+                                <label class="label" for="password">Insira sua Senha</label>
+                                <input autocomplete="off" type="password" id="password" name="password" required>
+                                <span class="toggle-password" onclick="versenha('password')">Mostrar Senha</span>
+                            </div>
+                        </div>
+                        <div class="botes">
+                            <a href="../paginas/esqueciminhasenha.html" class="forgot-password">Recuperar Senha?</a>
+                            <button onclick="verificar()" type="button">Entrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

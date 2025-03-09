@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/fortes_icon.png">
+</head>
+<body>
+    
+    <header>
+        <div id="barradaheader">
+
+        </div>
+        <div id="menuheader">
+            <img src="imagens/logoFortes_Menu.png" alt="Logo da empresa fortes engenharia">
+
+            <nav>
+                <a href="">Início</a>
+                <a href="">Empresas</a>
+                <a href="">Projetos</a>
+                <a href="">Documentos</a>
+                <a href="">Cadastro</a>
+                <a href="">Home Page</a>
+                <form class="search-form" action="/search" method="post">
+                    <input type="text" name="barrapesquisa" placeholder="Procurar...">
+                    <button type="submit" id="barrapesquisa">&#x1F50D</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="sectionloguin">
+            <div class="painel">
+                <h2>Usuários</h2>
+
+                <div class="perfilpainel">
+                    <img src="imagens/duploperfil.png" alt="imagem de perfil dois bonecos">
+                    <a href="">Empresa Carente</a>
+                </div>
+                <div class="perfilpainel">
+                    <img src="imagens/soloperfil.png" alt="imagem de perfil um boneco">
+                    <a href="">Grupo Fortes</a>
+                </div>
+
+            </div>
+
+            <div class="loguin">
+            
+                <form class="login-form" action="login" method="post">
+                    <h2>Loguin</h2>
+                    <br>
+                    <div class="input-group">
+                        <label for="username">Usuário</label>
+                        <input type="text" id="username" name="username" placeholder="insira o cnpj...">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="insira sua senha..." required>
+                    </div>
+                    <br>
+                    <button type="submit">Entrar</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
