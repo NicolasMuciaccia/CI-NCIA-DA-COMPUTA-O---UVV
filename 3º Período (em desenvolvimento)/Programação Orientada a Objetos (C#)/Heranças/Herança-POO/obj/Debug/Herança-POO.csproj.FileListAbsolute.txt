@@ -1,0 +1,14 @@
+C:\DevC\Herança-POO\Herança-POO\bin\Debug\Herança-POO.exe.config
+C:\DevC\Herança-POO\Herança-POO\bin\Debug\Herança-POO.exe
+C:\DevC\Herança-POO\Herança-POO\bin\Debug\Herança-POO.pdb
+C:\DevC\Herança-POO\Herança-POO\obj\Debug\Herança-POO.csproj.AssemblyReference.cache
+C:\DevC\Herança-POO\Herança-POO\obj\Debug\Herança-POO.csproj.CoreCompileInputs.cache
+C:\DevC\Herança-POO\Herança-POO\obj\Debug\Herança-POO.exe
+C:\DevC\Herança-POO\Herança-POO\obj\Debug\Herança-POO.pdb
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\obj\Debug\Herança-POO.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\obj\Debug\Herança-POO.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\obj\Debug\Herança-POO.exe
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\obj\Debug\Herança-POO.pdb
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\bin\Debug\Herança-POO.exe.config
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\bin\Debug\Herança-POO.exe
+C:\Users\Nicolas\Desktop\Herança-POO\Herança-POO\bin\Debug\Herança-POO.pdb
